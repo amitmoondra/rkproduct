@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Beryllium &mdash; Free Website Template, Free HTML5 Template by FreeHTML5.co</title>
+	<title>R K Paper Products</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -43,6 +43,9 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Custom Css-->
+	<link rel="stylesheet" href="css/custom.css">
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -57,131 +60,100 @@
 	
 	<div id="page">
 
-		<nav class="gtco-nav" role="navigation">
-			<div class="gtco-container">
-				
-				<div class="row">
-					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html">Beryllium</div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li class="has-dropdown">
-								<a href="services.html">Services</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
-							<li class="has-dropdown">
-								<a href="#">Dropdown</a>
-								<ul class="dropdown">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Sass</a></li>
-									<li><a href="#">jQuery</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</nav>
+		<?php include 'nav.php';?>
 
-		<div class="gtco-section">
+		
+
+		<div class="gtco-section gtco-services">
 			<div class="gtco-container">
 				<div class="row gtco-heading">
 					<div class="col-md-7 text-left">
-						<h2>Works</h2>
+						<h2>Our Services</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
 					</div>
 					<div class="col-md-3 col-md-push-2 text-center">
-						<p class="mt-md"><a href="#" class="btn btn-special btn-block">Contact us</a></p>
+						<p class="mt-md"><a href="#" class="btn btn-special btn-block">Join our team</a></p>
 					</div>
 				</div>
 				<div class="row">
-
-					<div class="col-md-12">
-						<div class="owl-carousel owl-carousel-carousel">
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-briefcase icon"></i>
+							<div class="copy">
+								<h3>Building &amp; Architect</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
 							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_1.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">New York Arena</h2></a>
-									<p class="role">New York</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_2.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Eagle Park</h2></a>
-									<p class="role">London</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-item">
-									<a href="#"><img src="images/img_3.jpg" alt="" class="img-responsive"></a>
-									<h2><a href="#">Nationals Park</h2></a>
-									<p class="role">Paris, France</p>
-								</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-package icon"></i>
+							<div class="copy">
+								<h3>Planning</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
 							</div>
 						</div>
 					</div>
 					
+					<div class="clearfix visible-sm-block"></div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-brush-alt icon"></i>
+							<div class="copy">
+								<h3>Interior Design</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="clearfix visible-md-block"></div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-home icon"></i>
+							<div class="copy">
+								<h3>Sustainability</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix visible-sm-block"></div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-notepad icon"></i>
+							<div class="copy">
+								<h3>Events</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="feature-left">
+							<i class="ti-plug icon"></i>
+							<div class="copy">
+								<h3>Bridge</h3>
+								<p>Lorem ipsum dolor sit ameteista, consectetur adipiscing is not elitistaris.</p>
+								<p><a href="#" class="gtco-more">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+					
+					
+
 				</div>
 			</div>
 		</div>
-		<!-- END Work -->
+		<!-- Services -->
 
 		<div class="gtco-section">
 			<div class="gtco-container">
@@ -341,7 +313,6 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
 	<script src="js/owl.carousel.min.js"></script>
-	
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
