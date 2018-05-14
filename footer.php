@@ -3,7 +3,7 @@
 				<div class="row row-pb-md">
 					<div class="col-md-4 gtco-widget gtco-footer-paragraph">
 						<div class="col-sm-2" style="padding-left: 0px">
-                            <img class="img-responsive" src="images/logo/Icon-72.png"></img>
+                            <img class="img-responsive" src="images/logo/Icon-96.png"></img>
                         </div>
                         <div class="col-sm-10" style="padding-left: 0px">
                             <h3>R K Paper Products</h3>
